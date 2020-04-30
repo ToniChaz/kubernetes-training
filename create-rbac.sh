@@ -122,7 +122,7 @@ metadata:
   namespace: $NAMESPACE
 subjects:
 - kind: ServiceAccount
-  name: kst-admin
+  name: $SERVICE_ACCOUNT_NAME
   namespace: $NAMESPACE
 roleRef:
   kind: Role
